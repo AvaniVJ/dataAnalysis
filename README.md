@@ -1,107 +1,120 @@
+# 🍕 Pizza Sales Intelligence System
+
+## 🚀 Overview  
+An end-to-end analytics system that transforms raw pizza sales data into actionable business insights.  
+It combines data analysis, KPI modeling, and interactive visualization to support real-world decision-making.
 
 ---
 
-# 🍕 Pizza Sales Analysis Dashboard
+## 🎯 Problem Statement  
+Businesses collect transactional sales data but lack visibility into:
+- When demand is highest  
+- Which products drive revenue and which underperform  
+- How customers order (order value, quantity patterns)  
 
-## 🚀 Overview
-
-This project delivers an end-to-end data analytics solution to analyze pizza sales data and uncover actionable business insights. It integrates data cleaning, exploratory data analysis (EDA), SQL-based querying, and interactive visualization to support data-driven decision-making.
-
----
-
-## 🎥 Demo
-
-👉 **Watch 1-minute demo:** *(https://drive.google.com/file/d/1R_jQvt6yLQxqZV91-fal48V6k-H8e79W/view?usp=drivesdk)*
+Without this, decision-making remains reactive instead of data-driven.
 
 ---
 
-## 🧠 Key Insights
-
-* Identified peak sales periods using daily and monthly trend analysis
-* Determined top-performing pizza categories contributing maximum revenue
-* Detected low-performing products for optimization
-* Analyzed customer ordering behavior using average order value and pizzas per order
-
----
-
-## 🛠️ Tech Stack
-
-* **Python (Pandas, NumPy)** – data cleaning & EDA
-* **SQL** – complex analytical queries for business insights
-* **Power BI** – interactive dashboard and visualization
+## 🧠 Key Insights  
+- Peak demand occurs during weekends and evenings  
+- A few categories contribute significantly to overall revenue  
+- Identified both top-performing and underperforming products  
+- Customer ordering patterns reveal consistent behavior trends  
 
 ---
 
-## 📊 Dashboard KPIs
+## 📊 KPIs  
 
-* Total Revenue
-* Total Orders
-* Total Pizzas Sold
-* Average Order Value
-* Average Pizzas per Order
-
----
-
-## 🔍 Exploratory Data Analysis (EDA)
-
-* Cleaned and preprocessed raw data (handled missing values, duplicates, inconsistencies)
-* Performed statistical analysis and trend identification using Python
-* Generated visual insights to understand revenue distribution and product performance
-
-📄 **EDA Report:** Download and open locally in browser for full interactive view
+- Total Revenue  
+- Total Orders  
+- Total Pizzas Sold  
+- Average Order Value (AOV)  
+- Average Pizzas per Order  
 
 ---
 
-## 🧩 Project Workflow
+## 📈 Visualizations  
 
-1. **Data Cleaning & Preprocessing (Python)**
-2. **Exploratory Data Analysis (EDA)**
-3. **SQL-based Trend Analysis**
-4. **Dashboard Design & Development (Power BI)**
-
----
-
-## 📁 Project Structure
-
-```
-Pizza-Sales-Analysis/
-│
-└── pizza_sales.pbix
-│
-├
-│
-── eda/
-│   └── Pizza-EDA.html
-│
-├── demo/
-│   └── demo_video.mp4
-│
-├
-│
-└── README.md
-```
+- Daily Orders (Bar Chart)  
+- Monthly Orders (Line Chart)  
+- Sales by Category (Pie/Donut)  
+- Sales by Size (Pie/Donut)  
+- Pizzas Sold by Category (Bar Chart)  
+- Top 5 Products (Bar Charts)  
+- Bottom 5 Products (Bar Charts)  
 
 ---
 
-## 🎯 Outcome
+## 🏗️ System Flow  
 
-Transformed raw transactional data into actionable insights, enabling better understanding of sales performance, customer behavior, and product optimization opportunities.
-
----
-
-## 🔗 Project Access
-
-* 📂 Power BI Dashboard: Included (.pbix file)
-* 📄 EDA Report: Included (HTML format)
-* 🎥 Demo Video: Included
+Raw Data → SQL Analysis → Python EDA → KPI Computation → Dashboard → Interactive App  
 
 ---
 
-## ⭐ Highlights
+## 🛠️ Tech Stack  
 
-* End-to-end analytics project (data → insights → visualization)
-* Strong use of SQL for business-driven analysis
-* Interactive dashboard with real-world KPIs
-* Detailed EDA report for transparency and reproducibility
+- SQL  
+- Python (Pandas, NumPy)  
+- Power BI  
+- Dash (Plotly)  
 
 ---
+
+## 🔍 Workflow  
+
+1. Data Cleaning & Preprocessing  
+2. Exploratory Data Analysis (EDA)  
+3. SQL-based Analysis  
+4. Dashboard Development  
+5. Interactive Application  
+
+---
+
+## 🖥️ Application Features  
+
+- Category-based filtering  
+- Dynamic charts and KPIs  
+- Top & bottom product insights  
+- Real-time interactive exploration  
+
+---
+
+## 🎥 Demo  
+
+https://drive.google.com/file/d/1R_jQvt6yLQxqZV91-fal48V6k-H8e79W/view?usp=drivesdk  
+
+---
+
+## 📁 Project Structure  
+
+dataAnalysis/  
+│  
+├── pizza-eda.ipynb  
+├── frame.py  
+├── analysis.pbix  
+├── pizza sales analysis.mp4  
+└── README.md  
+
+---
+
+## 💡 What Makes This Strong  
+
+- End-to-end analytics system (data → insights → decisions)  
+- Combines SQL, Python, BI, and interactive analytics  
+- Focuses on business insights, not just visualization  
+
+---
+
+## 🚀 Outcome  
+
+Transforms raw sales data into a decision-support system that helps businesses:
+- Understand performance  
+- Identify trends  
+- Optimize product strategy  
+
+---
+
+## ⚡ One-Line Summary  
+
+Built a complete data analytics system that turns raw sales data into actionable business insights through analysis, dashboards, and interactive exploration.
