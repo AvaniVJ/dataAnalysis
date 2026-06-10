@@ -80,11 +80,7 @@ Raw Data → SQL Analysis → Python EDA → KPI Computation → Dashboard → I
 
 ---
 
-## 🎥 Demo  
 
-https://drive.google.com/file/d/1R_jQvt6yLQxqZV91-fal48V6k-H8e79W/view?usp=drivesdk  
-
----
 
 ## 📁 Project Structure  
 
