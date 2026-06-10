@@ -1,116 +1,192 @@
-# 🍕 Pizza Sales Intelligence System
+# 🍕 AI-Powered Pizza Sales Intelligence Dashboard
 
-## 🚀 Overview  
-An end-to-end analytics system that transforms raw pizza sales data into actionable business insights.  
-It combines data analysis, KPI modeling, and interactive visualization to support real-world decision-making.
+## 🚀 Overview
 
----
+An end-to-end analytics and business intelligence solution that transforms raw pizza sales data into actionable insights and AI-driven recommendations.
 
-## 🎯 Problem Statement  
-Businesses collect transactional sales data but lack visibility into:
-- When demand is highest  
-- Which products drive revenue and which underperform  
-- How customers order (order value, quantity patterns)  
-
-Without this, decision-making remains reactive instead of data-driven.
+The system combines SQL analysis, Python-based data processing, interactive dashboards, and a Large Language Model (LLM) to help businesses understand performance, identify opportunities, and support data-driven decision-making.
 
 ---
 
-## 🧠 Key Insights  
-- Peak demand occurs during weekends and evenings  
-- A few categories contribute significantly to overall revenue  
-- Identified both top-performing and underperforming products  
-- Customer ordering patterns reveal consistent behavior trends  
+## 🎯 Problem Statement
+
+Businesses generate large volumes of transactional sales data but often struggle to answer key business questions:
+
+* Which products generate the most revenue?
+* Which products underperform and require attention?
+* What ingredients are most preferred by customers?
+* How can revenue and operational performance be improved?
+* What new product opportunities exist?
+
+Without analytical insights, decision-making becomes reactive rather than strategic.
 
 ---
 
-## 📊 KPIs  
+## 🧠 Business Insights Generated
 
-- Total Revenue  
-- Total Orders  
-- Total Pizzas Sold  
-- Average Order Value (AOV)  
-- Average Pizzas per Order  
-
----
-
-## 📈 Visualizations  
-
-- Daily Orders (Bar Chart)  
-- Monthly Orders (Line Chart)  
-- Sales by Category (Pie/Donut)  
-- Sales by Size (Pie/Donut)  
-- Pizzas Sold by Category (Bar Chart)  
-- Top 5 Products (Bar Charts)  
-- Bottom 5 Products (Bar Charts)  
+* Identified top-performing and underperforming pizzas based on revenue.
+* Analyzed ingredient popularity and customer preferences.
+* Discovered ingredients commonly associated with high-performing products.
+* Generated AI-powered recommendations for promotions, pricing, and product strategy.
+* Enabled natural language interaction with sales data.
 
 ---
 
-## 🏗️ System Flow  
+## 📊 Key Performance Indicators (KPIs)
 
-Raw Data → SQL Analysis → Python EDA → KPI Computation → Dashboard → Interactive App  
-
----
-
-## 🛠️ Tech Stack  
-
-- SQL  
-- Python (Pandas, NumPy)  
-- Power BI  
-- Dash (Plotly)  
+* Total Revenue
+* Total Orders
+* Total Pizzas Sold
+* Average Order Value (AOV)
 
 ---
 
-## 🔍 Workflow  
+## 🤖 AI-Powered Analytics
 
-1. Data Cleaning & Preprocessing  
-2. Exploratory Data Analysis (EDA)  
-3. SQL-based Analysis  
-4. Dashboard Development  
-5. Interactive Application  
+Integrated a Mistral Large Language Model using Ollama to provide business recommendations based on sales metrics and product performance.
 
----
+### Example Questions
 
-## 🖥️ Application Features  
+* Which pizzas underperform?
+* Which pizzas should receive more promotion?
+* Suggest strategies to improve revenue.
+* Which ingredients are most popular?
+* Which ingredients appear in top-performing pizzas?
+* Suggest a new pizza likely to perform well.
 
-- Category-based filtering  
-- Dynamic charts and KPIs  
-- Top & bottom product insights  
-- Real-time interactive exploration  
+The AI assistant analyzes aggregated business metrics and returns concise, data-driven recommendations.
 
 ---
 
+## 📈 Dashboard Features
 
+### KPI Dashboard
 
-## 📁 Project Structure  
+* Revenue Tracking
+* Order Analysis
+* Product Performance Monitoring
+* Average Order Value Analysis
 
-dataAnalysis/  
-│  
-├── pizza-eda.ipynb  
-├── frame.py  
-├── analysis.pbix  
-├── pizza sales analysis.mp4  
-└── README.md  
+### Product Intelligence
 
----
+* Top 5 Revenue-Generating Pizzas
+* Bottom 5 Performing Pizzas
+* Product Comparison Insights
 
-## 💡 What Makes This Strong  
+### Ingredient Analytics
 
-- End-to-end analytics system (data → insights → decisions)  
-- Combines SQL, Python, BI, and interactive analytics  
-- Focuses on business insights, not just visualization  
+* Most Popular Ingredients
+* Ingredient Patterns in Top Products
+* Ingredient-Based Product Recommendations
 
----
+### Interactive AI Assistant
 
-## 🚀 Outcome  
-
-Transforms raw sales data into a decision-support system that helps businesses:
-- Understand performance  
-- Identify trends  
-- Optimize product strategy  
+* Natural Language Queries
+* Business Recommendations
+* Revenue Optimization Suggestions
 
 ---
 
-## ⚡ One-Line Summary  
+## 🏗️ System Architecture
 
-Built a complete data analytics system that turns raw sales data into actionable business insights through analysis, dashboards, and interactive exploration.
+Raw Sales Data → SQL Analysis → Python Processing → KPI Computation → Dashboard Analytics → AI Recommendation Engine
+
+---
+
+## 🛠️ Tech Stack
+
+### Data Analysis
+
+* SQL
+* Python
+* Pandas
+* NumPy
+
+### Business Intelligence
+
+* Power BI
+* Dash (Plotly)
+
+### AI & Analytics
+
+* Ollama
+* Mistral LLM
+* Prompt Engineering
+
+---
+
+## 🔍 Workflow
+
+1. Data Cleaning and Preprocessing
+2. Exploratory Data Analysis (EDA)
+3. SQL-Based Sales Analysis
+4. KPI Calculation and Business Metrics
+5. Product and Ingredient Analysis
+6. Dashboard Development
+7. AI Recommendation Generation
+8. Interactive User Experience
+
+---
+
+## 🖥️ Application Features
+
+* Interactive KPI Dashboard
+* Product Performance Analysis
+* Ingredient Trend Analysis
+* AI-Powered Business Assistant
+* Dynamic Business Queries
+* Revenue Optimization Insights
+* Natural Language Data Exploration
+
+---
+
+## 📁 Project Structure
+
+```text
+pizza-sales-intelligence/
+│
+├── data/
+│   └── pizza_sales.csv
+│
+├── notebooks/
+│   └── pizza_eda.ipynb
+│
+├── dashboard/
+│   └── frame.py
+│
+├── powerbi/
+│   └── analysis.pbix
+│
+├── demo/
+│   └── dashboard_demo.mp4
+│
+└── README.md
+```
+
+---
+
+## 💡 What Makes This Project Unique
+
+* Combines SQL, Python, Power BI, Dash, and AI in a single solution.
+* Goes beyond visualization by generating actionable business recommendations.
+* Implements LLM-powered analytics using Ollama and Mistral.
+* Enables business users to interact with data through natural language.
+* Demonstrates end-to-end analytics from raw data to strategic insights.
+
+---
+
+## 🚀 Outcome
+
+The system transforms raw sales data into an intelligent decision-support platform that helps businesses:
+
+* Monitor performance
+* Identify revenue opportunities
+* Understand customer preferences
+* Optimize product strategy
+* Make data-driven business decisions
+
+---
+
+## ⚡ One-Line Summary
+
+Built an AI-powered sales intelligence platform that combines analytics, dashboards, and LLM-driven recommendations to transform pizza sales data into actionable business insights.
